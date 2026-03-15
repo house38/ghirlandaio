@@ -77,12 +77,13 @@
 #### 2.2 Akar Konflik dalam perspektif Historis
 #### - Perkembangan apa saja yang terjadi pada sains dan agama pada masa Yunani include Eropa.
 #### Perkembangan ilmu pengetahuan di Yunani sangatlah melegenda, ada banyak ilmu lahir disini, yang menjelaskan perkembangan IPTEK pada zaman Yunani kuno sangat berkembang juga. Konsep Pythagoras dan kontribusi ilmiah dari Archimedes dari bidang fisika dan mekanika. Berikut ini adalah perkembangan iptek pada zaman Yunani kuno : 
-#### A. Filsafat Yunani kuno dan logika.                                                                                            Yunani kuno dikenal sebagai tempat lahirnya filsafat barat. Para filsuf Yunani tidak hanya merenungkan tentang kehidupan dan alam semesta, tetapi juga mengembangkan metode berpikir yang mnjadi dasar bagi ilmu pengetahuan. Filsafat Yunani kuno terbagi ke dalam beberapa periode, yaitu periode pra Socrates, periode Sokrates, dan periode Helenistik.
+#### A. *Filsafat Yunani kuno dan logika*.                                                                                            Yunani kuno dikenal sebagai tempat lahirnya filsafat barat. Para filsuf Yunani tidak hanya merenungkan tentang kehidupan dan alam semesta, tetapi juga mengembangkan metode berpikir yang mnjadi dasar bagi ilmu pengetahuan. Filsafat Yunani kuno terbagi ke dalam beberapa periode, yaitu periode pra Socrates, periode Sokrates, dan periode Helenistik.
 #### 1. Periode pra Socrates.    
 #### Filsuf pada periode ini lebih fokus pada memahami hakikat alam dan keberadaan dunia. Beberapa tokoh pentingnya adalah :    
-a. 
-a.
-a.
+#### a. Thales dari Miletus (624-546 SM) yang diaggap sebagai filsuf pertama dan mengemukakan bahwa segala sesuatu berasal dari air.
+#### b. Heraclitus yang berpendapat bahwa segala sesuatu terus berubah (panta rhei).
+#### c. Parmenides yang menentang gagasan perubahan dan menyatakan bahwa realitas bersifat tetap. 
+#### B. *Periode Sokrates, Plato, dan Aristoteles.
 
 
 #### - Perkembangan sains dan agama pada masa Romawi include Eropa dan negara lain.
