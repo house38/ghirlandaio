@@ -34,8 +34,9 @@ Materi wulan
 
 **3. Contoh Kasus Berdasarkan Pengalaman Pribadi**
 
-semwa
+1. Saat saya berpergian ke suatu tempat yang sebenarnya sudah saya sering kunjungi, saya tetep membuka aplikasi peta seperti Google Maps di handphone. Padahal saya sudah cukup tahu dan hafal arah menuju lokasi tersebut. Namun, karena aplikasi dianggap memberikan rute yang paling cepat dan akurat, saya jadi lebih mempercayai teknologi tersebut dibandingkan insting saya sendiri.
 
 **4. Perbedaan antara Teknologi sebagai Mitos dan Teknologi sebagai Alat**
 
-materi azzah
+Perkembangan teknologi di era sekarang mengalami perubahan yang cukup besar, tidak hanya sebagai alat bantu manusia tetapi juga sebagai kekuatan yang mampu merubah cara manusia memahami realitas. Dalam perspektif Homo Deus teknologi telah berkembang menjadi alat yang tidak hanya membantu aktivitas manusia, tetapi juga membantu mereka berpikir dan mengambil keputusan. Hal ini dapat di analisis melalui dua sudut pandang, yaitu teknologi sebagai mitos dan teknologi sebagai alat, yang memiliki perbedaan mendasar dalam hal posisi kendali dan tingkat kepercayaan manusia terhadap teknologi.
+
