@@ -112,6 +112,9 @@ Assalamualaikum Warahmatullahi Wabarakatuh.
 <p align="justify">
 &nbsp;&nbsp;&nbsp;&nbsp;Sekarang Swasta dan teknologi menjadi kekuatan utama, karena swasta memimpin inovasi dan ekonomi teknologi, menguasai pasar global, mempunyai pengaruh politik dan mengeluarkan biaya besar untuk melobi pemerintah. Jadi, Negara yang memulai dan mendanai teknologi sementara swasta yang mengembangkan dan menyebarkan teknologi.
 </p>
+<p align="justify">
+&nbsp;&nbsp;&nbsp;&nbsp;Dalam buku The Wealth of nations, menjelaskan bahwa hubungan antara swasta dan teknologi melalui prinsip-prinsp ekonomi dasar. Menurut smith, inovasi teknologi muncul secara alami dari pembagian kerja. ketika pekerjan dipecah menajdi tugas-tugas kecil, pekerja terdorong menciptakan alat untuk mempermudah pekerjaan. Inovasi ini berasal dari tiga pihak yaitu pekerja yang mencari cara kerja yang lebih efisien, pembuat mesin sebagai bisnis khusus, serta ilmuwan atau pengamat yang mengembangkan pengetahuan. Selain itu, pemilik modal seperti perusahaan swasta berperan penting dalam menyediakan teknologi terbaik demi meningkatkan keuntungan. Persaingan pasar juga mendorong penggunaan teknologi yang lebih efisien agar dapat bersaing dalam harga dan kualitas. Pada akhirnya, hubungan antara swasta dan teknologi didorong oleh kepentingan pribadi (invisble hand), dimana individu berusaha meningkatkan keuntungan diri sendiri, tetapi secara tidak langsung juga berkontribusi pada kemajuan ekonomi keseluruhan.
+</p>
 
 #### **2.3. Implementasi dan Kontribusi _Hacking Culture_ dalam Pengembangan Teknologi Modern** 
 <p align="justify">
