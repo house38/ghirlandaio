@@ -11,7 +11,7 @@
 <p align="center">Zhafarina Tijani Athaya (12402051050138)</p>
 
 
-<br>
+<br> 
 <br>
 <p align="center"><b>PROGRAM STUDI ILMU PERPUSTAKAAN</b></p>
 <p align="center"><b>FAKULTAS ADAB DAN HUMANIORA</b></p>
@@ -88,7 +88,7 @@ Dalam buku Troublemakers: Silicon Valley Coming of Age, pada tahun 1960, awalnya
 Tidak hanya bekerja sama dengan negara tetapi pada tahun 1970-an universitas juga bergabung dengan cara mendanai para ilmuwan dan memfasilitasi laboratorium karena itu teknologi mulai berkembang dari riset menjadi inovasi nyata, contohnya sperti universitas yang mulai mengubah penelitian menjadi komersial dan ARPANET yang mulai menghubungkan ke kampus-kampus. JAdi, pada tahun ini negara mulai berkolaborasi dengan akademisi dengan menggunakan penelitian melalui para ilmuwan.
 </p>
 <p align="justify">
-Pada tahun transisi 1979-1984 Teknologi mulai dikomersilkan oleh negara kepada perusahaan swasta seperti Apple, Atari, dll. Muncul inverstor, venture capital, dan startup. Meskipun awalmya negara berperan sebagai pengendali tetapi pada masa ini peran negra berubah, menjadi pendukung  dan regulator yang memberikan aturan atau ketentuan. 
+Pada tahun transisi 1979-1984 Teknologi mulai dikomersilkan oleh negara kepada perusahaan swasta seperti Apple, Atari, dll. Muncul inverstor, venture capital, dan startup. Meskipun awalnya negara berperan sebagai pengendali tetapi pada masa ini peran negra berubah, menjadi pendukung  dan regulator yang memberikan aturan atau ketentuan. 
 <p align="justify">
 Pada masa sekarang lembaga ARPA berubah menjadi DARPA (Defense Advanced Projects Agency) pada tahun 1972. Bertambahnya kata "defense" yaitu untuk melakukan penelitian tingkat tinggi untuk pertahanan. Industri teknologi sangat berpengaruh secara ekonomi dan juga kuat secara politik, perusahaan teknologi mengeluarkan biaya besar untuk melobi pemerintah. Karena itu negara dan teknologi keduanya saling bergantungan menjadi hubungan dua arah. Negara membutuhkan teknologi juga membutuhkan negara.
 </p>
@@ -109,7 +109,7 @@ Implementasi hacking culture dalam praktik kerja menekankan eksplorassi dan eksp
 Sedangkan itu, Kontribusi hacking culture terhadap teknologi modern adalah lahirnya teknologi dasar seperti internet melalui pengembangan ARPANET, komputer pribadi, jaringan internet, dan teknologi antarkemuka pengguna. Konsep "superkomunitas" yang dikembangkan oleh Bob Taylor menunjukkan bagaimana teknologi dapat menghubungkan manusia tanpa batas geografis. Mereka mengembangkan berbagi teknologi melalui pendekatan tanpa trial and error yang menunjukkan kegagalan merupakan bagian dari proses inovasi.
 </p>
 <p align="justify">
-Kontribusi bukan hanya berupa perangkat keras atau lunak saja, melainkan sebuah kerangka berpikir baru yang menempatkan teknologi di tangan individu. Budaya ini yang telah mengubah komputer dari sekedar "alat hitung" menjadi "alat komunikasi" dan kreativitas yang kita gunakan setiap hari dalam kehidupan modern. 
+Kontribusi bukan hanya berupa perangkat keras atau lunak saja, melainkan sebuah kerangka berpikir baru yang menempatkan teknologi di tangan individu. Budaya ini yang telah mengubah komputer dari sekeldar "alat hitung" menjadi "alat komunikasi" dan kreativitas yang kita gunakan setiap hari dalam kehidupan modern. 
 </p>
 <p align="justify">
 Hacking culture turut membentuk ekosistem Silicon Valley sebagai pusat inovasi global. Lingkungan yang mendukung kebebasan bereksperimen dan toleransi terhadap kegagalan memungkinkan para inovator untuk terus menciptakan teknologi baru.  
@@ -118,7 +118,12 @@ Hacking culture turut membentuk ekosistem Silicon Valley sebagai pusat inovasi g
 **2.4. Sejarah dan Pola Hubungan antara Kode Sumber Terbuka dan Kode Sumber Tertutup**
 
 **2.5. Sikap terhadap Kode Sumber Terbuka dan Kode Sumber Tertutup**
-
+ 
+<p align="justify">
+Dalam Das Kapital, Karl Marx menjelaskan bahwa dalam sistem kapitalisme, kekayaan masyarakat dipandang sebagai kumpulan besar komoditas, dimana nilai suatu benda tidak hanya ditentukan oleh kegunaannya, tapi terutama oleh nilai tukarnya. Komoditas adalah segala sesuatu yang mampu memenuhi kebutuhan manusia, baik kebutuhan fisik maupun nonfisik, dan nilai guna suatu benda hanya menjadi nyata ketika digunakan atau dikonsumsi. Namun, dalam kapitalisme, nilai tukar menjadi lebih dominan, sehingga segala sesuatu, termasuk pengetahuan dan teknologi, dapat dikomodifikasi atau dijadikan sebagai barang yang diperjualbelikan. Dalam konteks ini, teknologi tidak lagi sekadar alat bantu manusia, melainkan berubah menjadi instrumen ekonomi yang digunakan untuk meningkatkan produktivitas dan menghasilkan nilai lebih (surplus value), bahkan seringkali menggantikan tenaga kerja manusia. Dengan demikian, teknologi dalam kapitalisme cenderung memperparah eksploitasi dan memperlebar ketimpangan sosial.
+</p>
+<p align="justify">
+Sementara itu, dalam Troublemakers of Silicon Valley, digambarkan bahwa pada awal perkembangan teknologi komputer, khususnya melalui komunitas Homebrew Computer Club pada tahun 1970-an, terdapat semangat yang sangat berbeda dari logika kapitalisme. Komunitas ini didirikan sebagai wadah bagi para penggemar komputer untuk belajar, berbagi pengetahuan, dan mengembangkan teknologi secara bersama-sama. Bagi mereka, proses menciptakan teknologi sama pentingnya dengan hasil akhirnya, dan komputer dipandang sebagai alat untuk kemanusiaan serta keadilan sosial. Nilai-nilai yang dianut oleh komunitas ini mencerminkan prinsip yang kini dikenal sebagai open source, yaitu keterbukaan, kolaborasi, dan kebebasan dalam mengakses serta memodifikasi teknologi. Mereka tidak berorientasi pada keuntungan, melainkan pada pembelajaran kolektif dan pemberdayaan masyarakat. Bahkan, komunitas ini memiliki sikap anti terhadap perusahaan besar dan monopoli, yang dianggap membatasi kebebasan dalam berbagi pengetahuan. 0000000
 **2.6. Hubungan antara Kode Sumber Terbuka dan Kode Sumber Tertutup**
 
 
