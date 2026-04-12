@@ -1,1 +1,1 @@
-# Contoh kasus yang menunjukkan teknologi ditekan karena mangganggu kapitalisme
+# Contoh kasus yang menunjukkan teknologi ditekan karena mengganggu kapitalisme
