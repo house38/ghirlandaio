@@ -22,5 +22,5 @@ Sebelum tahun 1969, perangkat lunak tidak dianggap sebaga produk yang memiliki n
 Perubahan besar dalam dunia teknologi terjadi sejak kebijakan pemisahan yang dilakukan oleh IBM pada tahun 1969 yang menjadikan perangkat lunak sebagai produk bernilai ekonomi dan tidak lagi dibagikan secara bebas. Perubahan ini menimbulkan munculnya 2 model utama yaitu open source dan closed source yang terus memengaruhi perkembangan teknologi.
 
 ## Referensi
-1.	Kelompok 3 4D (2026). Evolusi Relasi antara Negara, Sektor Swasta, dan Teknologi (1960–Sekarang): Peran Budaya Hacking serta Paradigma Open dan Closed Source[^1].
+1.	[^1]: Kelompok 3 4D (2026). Evolusi Relasi antara Negara, Sektor Swasta, dan Teknologi (1960–Sekarang): Peran Budaya Hacking serta Paradigma Open dan Closed Source.
 2.	Wikipedia. History of IBM. https://en.wikipedia.org/wiki/History_of_IBM 
