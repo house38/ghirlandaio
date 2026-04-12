@@ -10,3 +10,9 @@ Dampak dari ARPANET yang paling masih bisa kita rasakan sampai saat ini adalah p
 # Kesimpulan
 ARPANET terbukti memiliki dampak yang sangat penting dan berkelanjutan. Tanpa adanya proyek awal ini, fondasi-fondasi internet modern seperti *packet switching*, TCP/IP, dan surat elektronik atau email tidak akan pernah muncul. Lebih jauh lagi, perkembangan ARPANET memberikan pelajaran penting mengenai bagaimana sebuah inovasi bisa menciptakan dampak besar, dimulai dari infrastruktur yang didanai dan dikontrol oleh negara untuk kepentingan strategis, disempurnakan oleh semangat kerja sama dalam komunitas peretasan, dan akhirnya didistribusikan secara luas oleh sektor swasta. Keseluruhan proses ini menegaskan bahwa ARPANET bukan hanya sekadar catatan sejarah lama, tetapi merupakan cikal bakal penting dari seluruh ekosistem digital yang kita nikmati sekarang.
 
+# Daftar Pustaka
+A Brief History of the Internet. (n.d.). Internet Society. Retrieved April 12, 2026, from https://www.internetsociety.org/internet/history-internet/brief-history-internet/
+
+ARPANET - Packet Data, Networking, Internet | Britannica. (2026, April 2). https://www.britannica.com/topic/ARPANET
+
+​Kelompok 3. (2026). Transformasi Ekosistem Teknologi: Dari Dominasi Negara ke Era Kolaborasi Terbuka.

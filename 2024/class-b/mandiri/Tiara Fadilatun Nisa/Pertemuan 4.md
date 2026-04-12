@@ -18,3 +18,6 @@ Selain itu, sistem ini memungkinkan adanya perpaduan antara kepentingan individu
 Sebaliknya, dalam sistem kode sumber tertutup, relasi sosial cenderung lebih terstruktur dan terpusat. Pengembangan perangkat lunak dikendalikan oleh organisasi atau perusahaan tertentu, sehingga akses terhadap kode dibatasi. Interaksi antaraktor diatur melalui mekanisme formal seperti lisensi dan hak kekayaan intelektual. Dalam konteks ini, relasi sosial lebih bersifat hierarkis dan berorientasi pada kepemilikan serta kontrol institusional.
 
 Perbedaan ini menunjukkan bahwa sistem terbuka memberikan ruang partisipasi yang lebih luas, sedangkan sistem tertutup membatasi keterlibatan berdasarkan aturan dan kepentingan organisasi. Akibatnya, pola interaksi dan kolaborasi dalam kedua sistem tersebut berkembang dengan karakter yang berbeda.
+
+# Kesimpulan
+Relasi sosial dalam sistem kode sumber terbuka bersifat kolaboratif, fleksibel, dan berbasis komunitas, sedangkan dalam sistem tertutup cenderung formal, terstruktur, dan berorientasi pada kontrol. Perbedaan ini mencerminkan cara masing-masing sistem dalam mengelola kolaborasi, kepemilikan, dan distribusi peran dalam pengembangan teknologi.
