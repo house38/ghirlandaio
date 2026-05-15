@@ -1,4 +1,4 @@
-# penugasan kelompok 7
+# penugasan kelompok 6
 
 ## presentator
 ### case:
