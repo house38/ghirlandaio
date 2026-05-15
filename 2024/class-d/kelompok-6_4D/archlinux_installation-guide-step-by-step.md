@@ -101,9 +101,20 @@ otomatis __membuat direktori dengan mkdir__ dan __mount point__ pada partisi yan
 base dan linux-firmware itu penting untuk menjalankan linux base adalah dasar atau inti dari repo linux sebagai dasar dasar dari sistem linux dan linux-firmware = firmware untuk linux 
 neovim adalah teks editor untuk linux dan iwd adalah sistem network untuk linux 
 
+### fstab 
+genfstab -U /mnt > /mnt/etc/fstab 
+
+untuk mengenerated mana dulu yang akan di mount terlebih dahulu setelah bootloader 
+
 ### CP network configuration 
 
-mkdir -p /var/lib/iwd 
+mkdir -p mnt/var/lib/iwd
+cp /var/lib/iwd/*.psk /mnt/var/lib/iwd/ 
+
+ini untuk mencopi configrasi iwd yang ada di boot environment sekarang 
+
+### CP network 
+
 
 
 
