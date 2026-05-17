@@ -25,21 +25,26 @@ Namun, proses instalasi Arch Linux memerlukan pemahaman mengenai perintah termin
 
 ### 1. Persiapan sebelum instalasi
 **Mengunduh File ISO** 
+
 Langkah pertama yaitu mengunduh file ISO (International Organization for Standardization) Arch Linux. File ISO digunakan sebagai media instalasi yang nantinya dimasukkan ke flashdisk agar komputer dapat melakukan boot dan menjalankan instalasi Arch Linux.
 
 File ISO merupakan file image yang berisi salinan sistem operasi dalam satu file, termasuk kernel Linux, installer, sistem boot, drive, dan berbagai paket yang diperlukan untuk menjalankan instalasi.
 
 ### 2. Instalasi
 **2.1 Membuat Bootable Flashdisk**
+
 Memindahkan file ISO ke flashdisk dilakukan menggunakan Terminal (Linux & macOS) atau aplikasi Rufus atau Balena Etcher untuk membuat flashdisk menjadi bootable sehingga dapat digunakan sebagai media instalasi sistem operasi.
 
 Terdapat 3 opsi yang dapat digunakan untuk memindahkan file ISO ke flashdisk agar menjadi bootable, yaitu menggunakan terminal pada Linux dan macOS, menggunakan Rufus pada Windows, dan menggunakan Balena Etcher untuk semua sistem operasi.
 
 **2.2 Langkah Booting**
+
 Booting merupakan proses saat komputer mulai menjalankan sistem operasi. Booting dari flashdisk dilakukan agar komputer dapat membuka installer Arch Linux dan memulai proses instalasi sistem operasi. Langkah yang dilakukan yaitu menyambungkan USB bootable ke komputer yang akan diinstal, kemudian masuk ke menu UEFI atau Boot Menu dengan menekan tombol seperti F2, F12, Del, atau ESC saat komputer mulai menyala, lalu pilih flashdisk sebagai perangkat boot utama.
 
 Setelah berhasil boot ke live environment Arch Linux, langkah selanjutnya yaitu memeriksa mode boot yang digunakan sistem, apakah UEFI atau BIOS, dengan menjalankan perintah 
+
 ```cat /sys/firmware/efi/fw_platform_size```
+
 hasil perintah tersebut menunjukkan tiga kemungkinan:
 - Jika mengembalikan nilai 64, berarti sistem berjalan dalam mode UEFI x64 64-bit.
 - Jika mengembalikan nilai 32, berarti sistem berjalan dalam mode UEFI IA32 32-bit dan akan membatasi pilihan boot loader.
@@ -50,7 +55,8 @@ Informasi ini penting karena langkah instalasi bootloader pada tahap akhir akan 
 **Perbedaan UEFI atau BIOS**
 
 **2.3 Perintah UEFI atau BIOS**
-Setelah berhasil masuk ke menu UEFI atau Boot Menu, langkah selanjutnya adalah memilih flashdisk bootable yang berisi file instalasi Arch Linux sebagai perangkat boot utama. Setelah dipilih, komputer akan memulai booting dari flashdisk dan menampilkan halaman awal Arch Linux. Pada tahap ini pengguna memilih opsi “Arch Linux install medium” untuk menjalankan live environment Arch Linux. Jika proses berhasil, sistem akan masuk ke tampilan terminal dengan prompt seperti root@archiso yang menandakan bahwa live environment Arch Linux sudah aktif dan siap digunakan untuk proses instalasi, seperti mengecek koneksi internet, membuat partisi disk, memformat partisi, dan menginstal sistem operasi ke penyimpanan komputer.
+
+Setelah berhasil masuk ke menu UEFI atau Boot Menu, langkah selanjutnya adalah memilih flashdisk bootable yang berisi file instalasi Arch Linux sebagai perangkat boot utama. Setelah dipilih, komputer akan memulai booting dari flashdisk dan menampilkan halaman awal Arch Linux. Pada tahap ini pengguna memilih opsi “Arch Linux install medium” untuk menjalankan live environment Arch Linux. Jika proses berhasil, sistem akan masuk ke tampilan terminal dengan prompt seperti ```root@archiso``` yang menandakan bahwa live environment Arch Linux sudah aktif dan siap digunakan untuk proses instalasi, seperti mengecek koneksi internet, membuat partisi disk, memformat partisi, dan menginstal sistem operasi ke penyimpanan komputer.
 
 **2.4 Menghubungkan Internet**
 
