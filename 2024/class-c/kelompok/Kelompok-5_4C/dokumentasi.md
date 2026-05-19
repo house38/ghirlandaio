@@ -323,18 +323,18 @@ kemudian lihat dan ingat semua type partisinya.
 <img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 38 07 PM (2)" src="https://github.com/user-attachments/assets/d55b8c13-a684-42ed-9199-0b69556888f5" />
 Contohnya seperti ini untuk Partisi nvme0n1p5 dengan size 512M (EFI), partisi nvme0n1p6 dengan size 4G (SWAP) Dan partisi nvme0n1p7 dengan size 44.3G yaitu sisa ruang kosong dari Partisi 50G (root)
 
-Format Partisi (root)
+# Format Partisi (root)
 
 ```bash
 mkfs.ext4 /dev/nvme0n1p7
 ```
 
-Penjelasan
+### Penjelasan
 Membuat filesystem ext4 pada partisi root.
 
 ---
 
-Membuat Swap
+# Membuat Swap
 
 ```bash
 mkswap /dev/nvme0n1p6
@@ -346,18 +346,18 @@ Aktifkan swap:
 swapon /dev/swap_partition
 ```
 
-Penjelasan
+### Penjelasan
 Swap digunakan sebagai memori cadangan ketika RAM penuh.
 
 ---
 
-Format EFI Partition
+# Format EFI Partition
 
 ```bash
 mkfs.fat -F 32 /dev/efi_system_partition
 ```
 
-Penjelasan
+### Penjelasan
 EFI partition harus menggunakan FAT32.
 
 
@@ -386,7 +386,7 @@ Instalasi Sistem Dasar
 pacstrap -K /mnt base linux linux-firmware base base-devel iwd
 ```
 
-Penjelasan
+### Penjelasan
 
 - `base` → paket inti sistem
 - `linux` → kernel Linux
@@ -399,17 +399,129 @@ Tunggu penginstalan hingga selesai, Kecepatan bergantung pada internet. Disarank
 
 setelah proses install selesai, buat fstab nya untuk menentukan partisi mana yang otomatis dimount saat boot.
 
-Membuat fstab
+# Membuat fstab
 
 ```bash
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
+### Penjelasan
+fstab menentukan partisi mana yang otomatis dimount saat boot.
 
+# Masuk ke Sistem Baru (Chroot)
 
+```bash
+arch-chroot /mnt
+```
 
+### Penjelasan
+Mengubah root shell ke sistem Arch yang baru dipasang.
 
+# Mengatur Timezone
 
+```bash
+ln -sf /usr/share/zoneinfo/Area/Location /etc/localtime
+```
 
+Contoh Indonesia:
 
+```bash
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+```
 
+Sinkronkan hardware clock:
 
+```bash
+hwclock --systohc
+```
+
+ # Localization
+
+Download neovim terlebih dahulu
+
+(Tolong jelasin kegunaan neovim)
+
+```bash
+pacman -S neovim
+```
+lalu ketik
+
+```bash
+ locale-gen
+```
+Dan Lanjutkan
+```bash
+nvim /etc/locale.conf
+```
+
+Pencet i Untuk insert dan masukkan command ini
+
+```bash
+LANG=en_US.UTF-8
+```
+Setelah sudah terisi pencet escape dan ketik :wq
+
+# Hostname
+
+```bash
+nvim /etc/hostname
+```
+
+Insert lagi dan masukkan nama hostname yang kalian inginkan, Contoh:
+"Luthfi"
+
+### Penjelasan
+Hostname adalah nama komputer di jaringan.
+
+# Generate Initramfs
+
+```bash
+mkinitcpio -P
+```
+
+### Penjelasan
+Membuat image boot awal Linux.
+
+# Password Root
+
+```bash
+passwd
+```
+
+### Penjelasan
+Mengatur password administrator/root.
+
+Install Bootloader
+
+```bash
+pacman -S grub efibootmgr
+```
+
+```bash
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+```
+
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+# Reboot
+
+Keluar dari chroot:
+
+```bash
+exit
+```
+
+Unmount:
+
+```bash
+umount -R /mnt
+```
+
+Reboot:
+
+```bash
+reboot
+```
+
+Lepas USB installer setelah restart.
