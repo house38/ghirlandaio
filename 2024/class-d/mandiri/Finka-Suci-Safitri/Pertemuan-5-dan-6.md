@@ -20,6 +20,9 @@ Step 4: masukin password wifi
 
 Step 5: exit
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/4da39ea3-7c71-4c9a-ac3e-f94c2a309d27" />
+
+
 Step 6: 
 - lsblk
 
@@ -39,9 +42,14 @@ Step 11:
 - pencet 'write’
 - yes
 - quit
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f7be5b51-27b7-4ce2-9886-0264bdc923ff" />
+
 
 Step 12: 
 - lsblk
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b90976e9-f8f0-45e0-891c-dc37d1bc4f99" />
+
 
 Step 13: 
 format root ke ext4
@@ -61,6 +69,8 @@ swapon /dev/sda2
 Step 16: 
 format boot
 - mkfs.fat -F 32 /dev/sda1
+<img width="1527" height="1250" alt="image" src="https://github.com/user-attachments/assets/37ea03ff-5f3d-4df9-91f0-edb6ceb5d6f7" />
+
 
 Step 17:
 mount partisi
@@ -73,10 +83,15 @@ Step 19:
 - pacstrap -K /mnt base-devel linux linux-firmware nvim intel(sesuai laptop masing)-ucode
 
 download
+<img width="1600" height="828" alt="image" src="https://github.com/user-attachments/assets/869c1b91-a704-42eb-bda3-e79807257cd4" />
+
 
 Step 20:
 generate fstab
 - genfstab -U /mnt >> /mnt/etc/fstab
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/1da1019e-2e92-44b7-b824-23998494d5eb" />
+
 
 Step 21: 
 masuk ke sistem arch
@@ -89,6 +104,9 @@ mengatur timezone
 Step 23: 
 sinkronkan dengan hardware clock
 - hwclock --systohc
+
+<img width="1517" height="797" alt="image" src="https://github.com/user-attachments/assets/65717fe5-5c50-4e9a-b6da-3edfb2c56d44" />
+
 
 Step 24:
 - locale-gen
@@ -142,6 +160,9 @@ Step 33:
 Step 34: 
 - grub-mkconfig -o /boot/grub/grub.cfg
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/a34d3eb2-8062-482a-ad4b-991ae0ed062d" />
+
+
 Step 35:
 - exit
 
@@ -165,8 +186,9 @@ Dokumentasi Penginstall-an Arch Linux
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/cca58c72-4f0e-4c3b-9be7-144b68d487e1" />
 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/718fd499-6251-4c7f-872a-baf804f90537" />
 
-<img width="585" height="1040" alt="image" src="https://github.com/user-attachments/assets/1cce3c61-dc5e-4722-9332-d12e8cec38b4" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b9869dc9-c88d-4afa-b9fe-e7e4554d5716" />
 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/53d58136-9da7-4862-916c-6cfdf10ddbd6" />
 
