@@ -1,6 +1,3 @@
-<img width="3048" height="4064" alt="1  karna saya salah dlm masukin password root dan bagian sudoersnya, jadinya saya tidak bisa login didalam archlinuxnya  jadi saya kembali ke arch live environtmen dan memasukkan kembali usb flashdisk saya" src="https://github.com/user-attachments/assets/1428beda-c44e-4e40-a7b7-9b03bfffc897" /># Instalasi Arch Linux 
----
-
 ## 1. Masuk ke live environtment archlinux
 
 #### BIOS HP
