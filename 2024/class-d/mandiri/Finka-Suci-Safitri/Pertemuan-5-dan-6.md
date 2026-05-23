@@ -1,4 +1,4 @@
-# Cara Install Linux
+# Cara Install Arch Linux
 ## Nama: Finka Suci Safitri
 ## Kelas: 4D
 ## NIM:12402051030091
