@@ -1,4 +1,4 @@
-<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/81526c71-0434-4a9a-b204-d70ad901b163" /># INSTALASI ARCHLINUX
+# INSTALASI ARCHLINUX
 ---
 
 *diawali dengan membuat partisi dan saya membuat partisi dengan kapasitas 50000 mb atau 50gb. Setelah itu masukan sambungkan dengan flashdisk yang sudah terisi Archiso 
