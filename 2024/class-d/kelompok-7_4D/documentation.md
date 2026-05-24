@@ -91,10 +91,10 @@ lvcreate -L size (G | M) proc -n vlog
 lvcreate -L size (G | M) proc -n vaud
 ```
 ```
-lvcreate -l50%FREE proc -n home
+lvcreate -L size (G | M) proc -n home
 ```
 ```
-lvcreate -L size (G | M) proc -n [name]
+lvcreate -l50%FREE  proc -n [name]
 ```
 
 ## formating 
