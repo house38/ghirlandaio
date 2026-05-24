@@ -402,3 +402,6 @@ umount -R /mnt
 ```
 reboot
 ```
+
+# Referensi:
+- Pelatihan di Yuros Community
