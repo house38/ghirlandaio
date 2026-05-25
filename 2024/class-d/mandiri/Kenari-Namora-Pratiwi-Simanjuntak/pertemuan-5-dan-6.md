@@ -157,3 +157,18 @@ Step 38:
 - masukin password user
 
 selesai
+
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/d603f5b2-4eb5-4d10-925b-abe19fe2e6f9" />
+
+<img width="1204" height="1600" alt="image" src="https://github.com/user-attachments/assets/0c5d74d7-c7e6-4d35-bee8-4741eb36dc66" />
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/f6c283eb-86c1-4f1e-a15a-767a706d3b35" />
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/2a08ac84-0833-4a87-a8d1-b5578e49b638" />
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/df5dc0fe-58ce-4a05-9c81-9829b8bd596c" />
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/74ece5d9-a2a1-4853-8e87-4cc4b57a0bce" />
+
+<img width="1600" height="1204" alt="image" src="https://github.com/user-attachments/assets/fb15a85f-2a45-4296-bb11-d446ad986241" />
