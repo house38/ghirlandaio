@@ -1,4 +1,9 @@
 # Dokumentasi Penginstalan Arch Linux
+## Nama: Fatma Ramadhani
+## NIM: 12402051050157
+## Mata Kuliah: Perpustakaan dan Arsip Digital
+## Dosen Pengampu: Al Muhdil Karim, S. IP., M.Hum
+
 <img width="963" height="1280" alt="image" src="https://github.com/user-attachments/assets/4c0baeee-b64d-462f-8cac-c9897748b6c5" />
 <img width="1280" height="963" alt="image" src="https://github.com/user-attachments/assets/60fdfb94-122c-4c9b-bea3-47fba0bf378e" />
 <img width="963" height="1280" alt="image" src="https://github.com/user-attachments/assets/2700ade0-d64e-4a74-a747-1f759c00ff4d" />
