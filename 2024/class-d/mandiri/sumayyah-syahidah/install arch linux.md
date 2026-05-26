@@ -1,1 +1,13 @@
-![screenshot linux](
+![screenshot linux](WhatsApp Image 2026-05-26 at 02.08.26.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-26 at 02.08.25.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.36.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.35.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.34.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.32.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.30.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.29.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.28.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.28.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.26.jpeg)
+![screenshot linux](WhatsApp Image 2026-05-25 at 21.40.24.jpeg)
+
