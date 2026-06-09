@@ -313,6 +313,9 @@ blacklist  usb_storage
 ## setup firewalld
 
 ```
+systemctl enable --now firewalld
+```
+```
 sudo firewall-cmd --zone=public --add-service=http --permanent 
 ```
 ```
