@@ -37,14 +37,12 @@ system = 50G [linux filesystem]
 #   SETUP LUKS
 
 ```
-cryptsetup luksFormat --sector-size 4096 /dev/partisi
+cryptsetup luksFormat --sector-size 4096 /dev/partisi_system
 ```
 ```
-cryptsetup luksOpen /dev/kondisi [creamy]
+cryptsetup luksOpen /dev/partisi_system [creamy]
 ```
-> kondisi: nvme0n1psekian
-> kondisi: sdasekian
-> kondisi:sdbsekian
+
 ```
 pvcreate /dev/mapper/[creamy]
 ```
@@ -234,9 +232,13 @@ cd ..
 ```
 mv vmlinuz-* intel-* kernel
 ```
+>[!NOTE]
+> * (artinya klik tab)
 ```
 rm -fr initramfs-*
 ```
+>[!NOTE]
+> * (artinya klik tab)
 ```
 mv /etc/mkinitcpio.conf /etc/mkinitcpio.d/default.conf
 ```
