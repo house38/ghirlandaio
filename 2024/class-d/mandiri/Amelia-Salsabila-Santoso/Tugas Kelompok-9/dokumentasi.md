@@ -230,8 +230,6 @@ docker swarm init --advertise-addr 192.168.1.47
 
 Jalankan perintah `docker swarm join --token ...` yang muncul setelah init di node worker.
 
-tampilan setelah join: 
-
 
 ### Label Nodes
 
