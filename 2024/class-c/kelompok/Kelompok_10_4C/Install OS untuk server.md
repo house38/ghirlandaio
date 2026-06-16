@@ -279,6 +279,7 @@ umount -R /mnt
 **CTRL+D**
 
 **asciineme upload nama_file.cast**
+
 **setelah itu, foto link yang tampil**
 
 ## Selesai
