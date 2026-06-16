@@ -3,14 +3,19 @@
 ## Menghubungkan ke jaringan wifi
 ```
 iwctl
+device list
 ```
+Cek driver wifi setiap laptop
 ```
 station wlan0 get-network
 ```
+Melihat jaringan yang tersedia
+```
+station wlan0 scaan
+```
+Memindaai jaringan yang ada
 ```
 station wlan0 connect "(nama wifi)"
-```
-```
 exit
 ```
 ## Memeriksa partisi
