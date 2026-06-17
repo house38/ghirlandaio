@@ -189,7 +189,7 @@ useradd -m kelompok10
 passwd kelompok10
 ```
 ```
-echo "luqman ALL=(ALL:ALL) ALL" >  /etc/sudoers.d/luqman
+echo "kelompok10ALL=(ALL:ALL) ALL" >  /etc/sudoers.d/kelompok10
 ```
 ## Mengatur Parameter
 ```
