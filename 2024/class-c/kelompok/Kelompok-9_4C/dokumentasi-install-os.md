@@ -37,11 +37,12 @@ system = 50G [linux filesystem]
 #   SETUP LUKS
 
 ```
-cryptsetup luksFormat --sector-size 4096 /dev/partisi
+cryptsetup luksFormat --sector-size 4096 /dev/partisi_system
 ```
 ```
-cryptsetup luksOpen /dev/partisi [creamy]
+cryptsetup luksOpen /dev/partisi_system [creamy]
 ```
+
 ```
 pvcreate /dev/mapper/[creamy]
 ```
@@ -82,7 +83,7 @@ mount --mkdir -o rw,nodev,nosuid,relatime /dev/pudding/vars /mnt/var
 ### tmp
 
 ```
-lvcreate -L 15G pudding -n tmp
+lvcreate -L 2G pudding -n tmp
 ```
 ```
 mkfs.ext4 /dev/pudding/tmp
@@ -231,9 +232,13 @@ cd ..
 ```
 mv vmlinuz-* intel-* kernel
 ```
+>[!NOTE]
+> '*' (artinya klik tab)
 ```
 rm -fr initramfs-*
 ```
+>[!NOTE]
+> '*' (artinya klik tab)
 ```
 mv /etc/mkinitcpio.conf /etc/mkinitcpio.d/default.conf
 ```
@@ -296,28 +301,39 @@ nvim /etc/modprobe.d/hardening.conf
 
 ```
 install    cramfs           /bin/false
-blacklist  cramfs
+
 
 install    freexfs          /bin/false
-blacklist  freexfs
+
 
 install    hfs              /bin/false
-blacklist  hfs
+
 
 install    hfsplus          /bin/false
-blacklist  hfsplus
+
 
 install    jffs2            /bin/false
-blacklist  jffs2
+
 
 install    udf              /bin/false
-blacklist  udf
+
 
 install    fire-wire-core   /bin/false
-blacklist  fire-wire-core
+
 
 install    usb_storage      /bin/false
-blacklist  usb_storage
+
+```
+selanjutnya ketik : 
+```
+mkinitcpio -P
+```
+cek list module :
+```
+lsmod
+```
+```
+lsmod | grep namamodule
 ```
 
 ## setup firewalld
@@ -329,8 +345,27 @@ systemctl enable --now firewalld
 sudo firewall-cmd --zone=public --add-service=http --permanent 
 ```
 ```
-sudo firewall-cmd --zone=public --add-service=https --permanent
+sudo firewall-cmd --zone=public --add-port=2377/tcp --permanent
 ```
 ```
-sudo firewall-cmd --permanent --zone=public --add-service=ssh
+sudo firewall-cmd --zone=public --add-port=7946/tcp --permanent
+```
+```
+sudo firewall-cmd --zone=public --add-port=4789/tcp --permanent
+```
+```
+sudo firewall-cmd --zone=public --add-port=8000/tcp --permanent
+```
+```
+sudo firewall-cmd --zone=public --add-port=5432/tcp --permanent
+```
+```
+sudo firewall-cmd --zone=public --add-port=6379/tcp --permanent
+```
+```
+sudo firewall-cmd --reload
+```
+Selanjutnya, untuk melihat list-list port dan sistem yang sudah di enable ketik:
+```
+sudo firewall-cmd --list-ports
 ```
