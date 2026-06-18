@@ -48,13 +48,13 @@ lvscan // untuk scan logical volume yang aktif <br>
 ## membuat logical volume pada volume gruop 
 // untuk size atau besaran isi volume menyesuaikan dari besaran partisi 
 
-lvcreate -L ( G | M ) [namavolumegruop] -n root 
-lvcreate -L ( G | M ) [namavolumegruop] -n vars
-lvcreate -L ( G | M ) [namavolumegruop] -n vtmp
-lvcreate -L ( G | M ) [namavolumegruop] -n vlog
-lvcreate -L ( G | M ) [namavolumegruop] -n vaud
-lvcreate -L ( G | M ) [namavolumegruop] -n home
-lvcreate -l100%FREE  [namavolumegruop] -n podman  // podman sedikit berbeda karena ini untuk server 
+lvcreate -L ( G | M ) [namavolumegruop] -n root <br>
+lvcreate -L ( G | M ) [namavolumegruop] -n vars <br>
+lvcreate -L ( G | M ) [namavolumegruop] -n vtmp <br>
+lvcreate -L ( G | M ) [namavolumegruop] -n vlog <br>
+lvcreate -L ( G | M ) [namavolumegruop] -n vaud <br>
+lvcreate -L ( G | M ) [namavolumegruop] -n home <br>
+lvcreate -l100%FREE  [namavolumegruop] -n podman  // podman sedikit berbeda karena ini untuk server <br>
 
 ## membuat format 
 mkfs.vfat  -F 32 -n BOOT /dev/[partisibuatmu] <br>
