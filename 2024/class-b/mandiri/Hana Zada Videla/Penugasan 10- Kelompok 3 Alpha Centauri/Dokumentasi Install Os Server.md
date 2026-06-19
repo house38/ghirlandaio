@@ -99,3 +99,5 @@ systemctl enable firewalld
 
 systemctl enable sshd
 ```
+
+10. Selesai, Exit
